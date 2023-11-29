@@ -30,10 +30,15 @@ def main():
         celsius_to_fahrenheit = c_to_f(value)
         return celsius_to_fahrenheit
     elif(unit == "F"):
+       if(unit = "K")
         fahrenheit_to_celsius = f_to_c(value)
         return fahrenheit_to_celsius
+       else
+        kelvin_to_fahrenheit = k_to_f(value)
+        return kelvin_to_fahrenheit
     elif(unit == "K")
-        fahrenheit_to_kelvin == f_to_k
+        fahrenheit_to_kelvin = f_to_k
+        return fahrenheit_to_kelvin
     else:
         warning = "Please enter C, F, or K to specify the unit: " 
         return warning
